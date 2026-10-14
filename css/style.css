@@ -1,12 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center; 
+    flex-wrap: wrap;
     height: 96px;
     border-bottom: 1px solid #e7d8d8;
     margin: auto;
-    width: 1440px;
+    /* width: 1232px; */
 }
+
 nav ul{
     list-style: none;
     display: flex;
@@ -30,29 +37,33 @@ nav ul{
     width: 171px;
     height: 44px;
     border-radius: 8px;
+    
+   
 }
 
-/* styling for the here section */
+---------------------------------start-of-hero-section-----------------------
+
 main{
      background-color: #F3F7FA;
 }
 .Accueil{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 55px 105px 25px 104px;
 }
-#accueilleft{
-   display: flex;
-   flex-direction: column;
-   width: 580px;
-   height: 419px;
-   gap: 20px;
 
+
+#accueilleft{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 #text1{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 35px;
+    
 }
 #text1 h4{
     color: #102A43;
@@ -65,38 +76,33 @@ main{
 
 #text2 h1{
     color: #102A43;
+    gap: 35px;
+
 }
-#text2 p{
-    color: #486176;
+#text2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
 }
 .accueilButtomBar{
+    gap: 35px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
     margin: auto;
-    width: 1232px;
-    height: 92px;
+    padding: 20px 24px;
     border-top: 1px solid #e7d8d8;
-    width: 1229px;
+    width: 1232px;
+   
 }
 
-#accueilbuttons{
-    height: 58px;
-    width: 580px;
-}
-#accueilButtomLeft{
+#accueilButtom{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
-#accueilButtomCenter{
-    display: flex;
-    gap: 20px;
-}
-#accueilButtomRight{
-    display: flex;
-    gap: 20px;
-}
+
 #accueilButtonLeft{
     background-color: #FF6418;
     border: none;
@@ -106,6 +112,7 @@ main{
     height: 44px;
     border-radius: 8px;
     padding: 5px 10px;
+     margin-bottom: 25px;
 }
 #accueilButtonRight{
     border: none;
@@ -115,50 +122,81 @@ main{
     height: 44px;
     border-radius: 8px;
     padding: 5px 10px;
+     margin-bottom: 25px;
 
 }
+---------------------------------ebd-of-hero-section-----------------------
 
 /* styling for the below hero section */
+---------------------------------start-of-services-section-----------------------
 
-.mainsection2{
-    /* background-color: #FF6418; */
+.servsection{
+    background-color: #d6c5bc;
+    justify-content: space-between;
+    padding: 60px 24px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+
 }
 
-#sec2entery{
-    
-    align-content: center;
-    justify-items: center;
-    padding: 20px 0px 20px 0px;
-}
-#sec2galley{
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    justify-items: center;
-    
-}
-#leftGal{
-   
+#seervHeader{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
+    text-align: center;
+    padding: 35px  25px ;
+}
+#seervHeader h2{
+     color: #102a43
+}
+#seervHeader p{
+     color: #1014e2
+}
+#seervHeader h{
+     color: #765a48
 }
 
-#centerGall{
-    
+
+#serviceslist{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    width: 100%;
+    padding: auto; 
+    flex-wrap: wrap;
+    padding: 25px  25px ;
+       
+}
+
+
+#servicesCard{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px solid #eeeaea;
+    border-radius: 10px;
+    /* padding: 24px; */
 }
-#rightGall{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+#servicesCard p{
+    padding: 0px 0px 15px 15px;
+    width: 395px;
+    }
+#servicesCard h3{
+    padding: 0px 0px 15px 15px;  
 }
+#servicesCard #serviceicon{
+    padding: 0px 0px 15px 15px;
+}
+
+
+
+---------------------------------end-of-services-section-----------------------
+
+
 
 
 #sec2Buttondev{
@@ -178,14 +216,6 @@ main{
     border-radius: 8px;
     padding: 5px 10px;
 }
-
-
-
-
-
-
-
-
 
 .mainsection3{
     background-color: #113612;

@@ -1,33 +1,34 @@
 <!DOCTYPE html>
+
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- find everything that has to do with the page header -->
+    <!-- ---------------------------------start-of-nav-section---------------------------- -->
     <header>
         <nav>
             <Div id="navLogo">
                 <img id="logoImg" src="assets/logo.png" alt="logo">
                 <P>Plomb’ <span style="color: blue;">Express</span></P>
             </Div>
-            
+
             <ul>
                 <li>Accueil</li>
                 <li><a href="#"></a>services</li>
                 <li><a href="#"></a>A propos</li>
                 <li><a href="#"></a>Contact</li>
             </ul>
-    
+
             <button id="navButton">Demander Un Devis</button>
         </nav>
     </header>
-    <!-- find everything that has to do with the main section -->
+    <!-- ---------------------------------start-of-hero-section---------------------------- -->
     <main>
-        <div class="Accueil" >
-            <div id="accueilleft" >
-                <div id="text1" >
+        <div class="Accueil">
+            <div id="accueilleft">
+                <div id="text1">
                     <img id="imgtext1" src="assets/map-pin.png" alt="maps">
                     <h4>Votre artisan à Lyon et alentours</h4>
                 </div>
@@ -61,121 +62,164 @@
                 <P>Professionnels qualifies</P>
             </div>
         </div>
-        <section class="servsection">   
+
+        <!-- ---------------------------------start-of-servsection-section---------------------------- -->
+
+        <section class="servsection">
             <div id="seervHeader">
                 <p>NOS SAVOIR-FAIRE</p>
                 <h2>Des solutions pour tous vos besoins</h2>
                 <p>De l’urgence au projet, le bon geste pour chaque situation.</p>
             </div>
-            
+
             <div id="serviceslist">
                 <div id="servicesCard">
                     <img class="imgGallsec" src="assets/Photo du service (1).png">
-                    <img  id="serviceicon" src="assets/Symbole du service.png">
+                    <img id="serviceicon" src="assets/Symbole du service.png">
                     <h3>Dépannage plomberie</h3>
-                    <p>Canalisation bouchée, chauffe-eau   panne ou robinet défectueux :  nous intervenons vite pour
+                    <p>Canalisation bouchée, chauffe-eau panne ou robinet défectueux : nous intervenons vite pour
                         rétablir votre confort.</p>
                 </div>
                 <div id="servicesCard">
                     <img class="imgGallsec" src="assets/Photo du service (2).png">
-                    <img  id="serviceicon" src="assets/Symbole du service (1).png">
+                    <img id="serviceicon" src="assets/Symbole du service (1).png">
                     <h3>Installation sanitaire</h3>
                     <p>Lavabo, douche, WC ou robinetterie : une installation sur mesure, des raccordements fiables et
                         des finitions soignées.</p>
                 </div>
                 <div id="servicesCard">
                     <img class="imgGallsec" src="assets/Photo du service.png">
-                    <img  id="serviceicon"  src="assets/Symbole du service (2).png">
+                    <img id="serviceicon" src="assets/Symbole du service (2).png">
                     <h3>Réparation de fuites</h3>
                     <p>Nous localisons la fuite et réparons vos canalisations durablement, pour protéger votre logement
                         et éviter le gaspillage.</p>
 
                 </div>
             </div>
-            
-            <div id="sec2Buttondev">
-                <button id="sec2Button">Voir tous nos services -></button>
+
+            <div id="servsectionbutton">
+                <button id="servsectionbutton">Voir tous nos services -></button>
 
             </div>
-            
+
         </section>
 
-        <section class="mainsection3">
+        <!-- ---------------------------------start-of-Pourquoi-nous-choisir-section---------------------------- -->
+
+        <section class="nouschoisir flex-row">
+
             <div>
-                <div>
-                    <img src="assets/Robinet moderne.png">
+                <img src="assets/Robinet moderne.png">
+
+            </div>
+            <div class="surNousChoisir flex-column">
+                <div id="choisir-details">
                     <p>POURQUOI NOUS CHOISIR ?</p>
                     <h1>Un service fiable et de qualité</h1>
-                    <h4>Votre tranquillité mérite un artisan engagé. Nous faisons de la qualité et de la confiance nos
-                        priorités, à chaque intervention.</h4>
+                    <p>Votre tranquillité mérite un artisan engagé. Nous faisons de la qualité et de <br>la
+                        confiance nos
+                        priorités, à chaque intervention.</p>
+                </div>
+
+                <div class="services-Garantie flex-row-details">
+                    <div class="detailsright">
+                        <div>
+                            <div id="secdevdetails">
+                                <img src="assets/Symbole.png">
+                                <h3>Expertise</h3>
+                            </div>
+                            <p>Des artisans qualifiés et expérimentés <br> pour un diagnostic précis.</p>
+                        </div>
+                        <div>
+                            <div id="secdevdetails">
+                                <img src="assets/Symbole1.png">
+                                <h3>Garantie</h3>
+                            </div>
+                            <p>Des travaux garantis et des équipements <br> sélectionnés pour durer.</p>
+                        </div>
+                    </div>
+                    <div class="detailsright">
+                        <div>
+                            <div id="secdevdetails">
+                                <img src="assets/Symbole.png">
+                                <h3>Devis gratuit</h3>
+                            </div>
+                            <p>Un prix clair avant les travaux, sans <br>mauvaise surprise.</p>
+                        </div>
+                        <div>
+                            <div id="secdevdetails">
+                                <img src="assets/Symbole1.png">
+                                <h3>Service client</h3>
+                            </div>
+                            <p>Une équipe à votre écoute, du premier <br> appel au suivi de votre intervention.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- ---------------------------------start-of-footer-section---------------------------- -->
+    <footer class="footerBackC">
+        <div class="footer">
+            <div id="spacebtwlines">
+                <div id="footertitleicon">
+                    <img src="assets/droplet.png" alt="droplet">
+                    <h2>Plomb’Express</h2>
+                </div>
+
+                <p>Votre partenaire plomberie pour un quotidien<br> serein. Des artisans de proximité, un
+                    travail <br>soigné et des engagements tenus.
+                </p>
+                <div id="footersocialmedia">
+                    <img src="assets/socialMicons/Lien social (1).png">
+                    <img src="assets/socialMicons/Lien social (2).png">
+                    <img src="assets/socialMicons/Lien social.png">
 
                 </div>
-                <div>
-                    <img src="assets/Symbole.png">
-                    <h3>Expertise</h3>
-                    <p>Des artisans qualifiés et expérimentés pour un diagnostic précis.</p>
-                </div>
-                <div>
-                    <img src="assets/Symbole.png">
-                    <h3>Expertise</h3>
-                    <p>Des travaux garantis et des équipements sélectionnés pour durer.</p>
-                </div>
-                <div>
-                    <img src="assets/Symbole.png">
-                    <h3>Expertise</h3>
-                    <p>Un prix clair avant les travaux, sans mauvaise surprise.</p>
-                </div>
-                <div>
-                    <img src="assets/Symbole.png">
-                    <h3>Expertise</h3>
-                    <p>Une équipe à votre écoute, du premier appel au suivi de votre intervention.</p>
-                </div>
-        </section>    
-    </main>
-    <!-- find everything that has to do with teh footer section -->
-    <footer>
-        <div>
-            <div>
-                <img src="assets/droplet.png" alt="droplet">
-                <h1>Plomb’Express</h1>
-                <p>Votre partenaire plomberie pour un quotidien serein. Des artisans de proximité, un travail soigné et des engagements tenus.</p>
-                 <img src="assets/socialMicons/Lien social (1).png">
-                  <img src="assets/socialMicons/Lien social (2).png">
-                   <img src="assets/socialMicons/Lien social.png">
+
             </div>
-            <div>
-                <h3>Liens utiles</h3>
+            <div id="spacebtwlines">
+                <h4>Liens utiles</h4>
                 <p>Accueil</p>
                 <p>À propos</p>
                 <p>Accueil</p>
                 <p>Contact</p>
             </div>
-            <div>
-                <h3>Nos services</h3>
+            <div id="spacebtwlines">
+                <h4>Nos services</h4>
                 <p>Dépannage plomberie</p>
                 <p>Installation sanitaire</p>
                 <p>Réparation de fuites</p>
                 <p>Contact</p>
             </div>
-            <div>
-                <h3>Contactez-nous</h3>
-                <img src="assets/socialMicons/phone.png">
-                <p>04 00 00 00 00</p>
-                <img src="assets/socialMicons/Vector.png">
-                <p>bonjour@plombexpress.example</p>
-                <img src="assets/socialMicons/map-pin (1).png">
-                <p>12 rue des Artisans <br>69003 Lyon, France</p>
+            <div id="spacebtwlines">
+                <h4>Contactez-nous</h4>
+                <div class="line1 flexfooter-row">
+                    <img src="assets/socialMicons/phone.png">
+                    <p>04 00 00 00 00</p>
+                </div>
+
+                <div class="line1 flexfooter-row">
+                    <img src="assets/socialMicons/Vector.png">
+                    <p>bonjour@plombexpress.example</p>
+                </div>
+                <div class="line1 flexfooter-row">
+                    <img src="assets/socialMicons/map-pin (1).png">
+                    <p>12 rue des Artisans <br>69003 Lyon, France</p>
+                </div>
                 <p>Coordonnées fictives — site de démonstration.</p>
             </div>
-            <div>
-                <p>© 2026 Plomb’Express. Tous droits réservés.</p>
-                <p>Mentions légales</p>
-                <p>Confidentialité</p>
-            </div>
-
         </div>
-        <div>
+        <div id="spacebtwlines">
+            <div id="allrightreserved">
+                <p>© 2026 Plomb’Express. Tous droits réservés.</p>
+                <div id="footerMlégales">
+                    <p>Mentions légales</p>
+                    <p>Confidentialité</p>
+                </div>
 
+            </div>
         </div>
     </footer>
 </body>

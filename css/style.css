@@ -17,6 +17,13 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+nav li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
     gap: 25px;
 }
 #navLogo{
@@ -41,7 +48,7 @@ nav ul{
    
 }
 
----------------------------------start-of-hero-section-----------------------
+/* ---------------------------------start-of-hero-section----------------------- */
 
 main{
      background-color: #F3F7FA;
@@ -90,10 +97,11 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     margin: auto;
     padding: 20px 24px;
     border-top: 1px solid #e7d8d8;
-    width: 1232px;
+    
    
 }
 
@@ -125,18 +133,16 @@ main{
      margin-bottom: 25px;
 
 }
----------------------------------ebd-of-hero-section-----------------------
+/* ---------------------------------ebd-of-hero-section----------------------- */
 
 /* styling for the below hero section */
----------------------------------start-of-services-section-----------------------
+/* ---------------------------------start-of-services-section----------------------- */
 
 .servsection{
-    background-color: #d6c5bc;
-    justify-content: space-between;
-    padding: 60px 24px;
+    justify-content: space-around;
+    padding: 20px 20px;
     margin: auto;
     flex-wrap: wrap;
-    
 
 }
 
@@ -162,6 +168,7 @@ main{
 #serviceslist{
     display: flex;
     justify-content: space-evenly;
+    justify-content: center;
     gap: 25px;
     width: 100%;
     padding: auto; 
@@ -191,41 +198,148 @@ main{
 #servicesCard #serviceicon{
     padding: 0px 0px 15px 15px;
 }
-
-
-
----------------------------------end-of-services-section-----------------------
-
-
-
-
-#sec2Buttondev{
-    padding: 20px 0px 20px 0px;
+#servsectionbutton{
     display: flex;
-    justify-items: center;
     justify-content: center;
-
+    align-items: center;
+    
 }
-#sec2Button{
-    background-color: #e9ebe9;
-    border: none;
+#servsectionbutton{
     font-size: 15px;
     color: black;
-    width: 200px;
-    height: 44px;
     border-radius: 8px;
-    padding: 5px 10px;
+     padding: 15px 15px 15px 15px;
+
 }
 
-.mainsection3{
-    background-color: #113612;
-}
-/* styling fro teh footer section */
+/* ---------------------------------end-of-services-section----------------------- */
 
-footer{
+/* ---------------------------------start-of-Pourquoi-nous-choisir-section--------------------------- */
+.nouschoisir{
+    display: flex;
+    margin: auto;
+    padding: 25px 10px;
+    width: 90dvw;
+}
+
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;  
+}
+.flex-row-start{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;  
+}
+.flex-column{
+    display: flex;
+    align-items: start;
+    flex-direction: column;  
+}
+#choisir-details p{
+  color: #0866C2;
+  
+}
+#choisir-details{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center; 
+    gap: 15px;
+    margin: 0px 0px 0px 20px;
+}
+
+.services-Garantie{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    
+}
+.flex-row-details{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.imgGallsec{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+#secdevdetails{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.detailsright{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+/* ---------------------------------start-of-footer--------------------------- */
+.footerBackC{
     background-color: #102A43;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+    margin: auto;
+    width: 100vw;
+   
+}
+.footerflex{
+    display: flex;
+    align-items: center;
+}
+#allrightreserved{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin: auto;
+    width: 90vw;
+    padding: 25px 0px 25px 0px;
+    background-color: #102A43;
+}
+#footertitleicon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+
+}
+#footerMlégales{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+footer p, h2, h4{
+    color: #F3F7FA;
+}
+#spacebtwlines{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#footersocialmedia{
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.flexfooter-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#spacebtwlines h4{
+    color: #f7f3f1;
+    font-size: 25px;
+
 }
